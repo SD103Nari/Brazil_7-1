@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6503B87F-ED3A-4335-9688-9FF4BA7D32C0}" SchemaVersion="103">
 	<AudioObjects>
+<<<<<<< HEAD
 		<WorkUnit Name="sfx" ID="{6503B87F-ED3A-4335-9688-9FF4BA7D32C0}" PersistMode="Standalone">
+=======
+		<WorkUnit Name="Sfx" ID="{6503B87F-ED3A-4335-9688-9FF4BA7D32C0}" PersistMode="Standalone">
+>>>>>>> 41156231f4b1842841e950c19ad7a573e60f2598
 			<ChildrenList>
 				<ActorMixer Name="sfx" ID="{B1C5113D-3F59-4475-9381-821277BA2DF5}" ShortID="477593851">
 					<ReferenceList>
