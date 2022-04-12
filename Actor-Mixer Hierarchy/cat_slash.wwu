@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{9BD1526A-D734-42A5-9276-FC9D918A7519}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{DC4B2C42-ADCB-44F1-B119-F4E737C31879}" SchemaVersion="103" RootDocumentID="{6503B87F-ED3A-4335-9688-9FF4BA7D32C0}" ParentDocumentID="{CE66CE8B-E3F8-4CA6-A893-5086264332DA}">
 	<AudioObjects>
-		<WorkUnit Name="mickey_sfx_dog_bark" ID="{9BD1526A-D734-42A5-9276-FC9D918A7519}" PersistMode="Standalone">
+		<WorkUnit Name="cat_slash" ID="{DC4B2C42-ADCB-44F1-B119-F4E737C31879}" OwnerID="{78AF5935-5ABC-4A0F-BC4C-81CE04010786}" PersistMode="Nested">
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="4"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<ActorMixer Name="sfx_attack" ID="{7C9ECE25-46EC-4D24-8101-E519F8146711}" ShortID="595431268">
+				<ActorMixer Name="sfx_attack_cat_slash" ID="{469E38F8-6ED5-495F-8E6A-1E1EB5D84891}" ShortID="780332252">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>
@@ -17,7 +17,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="bark_dog_angry" ID="{29A9ED7F-CB7E-43B3-9D53-487C525E2D45}" ShortID="641079587">
+						<RandomSequenceContainer Name="scratch_left_paw" ID="{7AA7718D-0A54-4EF4-A52A-AD8572F38569}" ShortID="696905985">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>
@@ -27,7 +27,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="dog_bark_angry_01" ID="{08CD3F6A-5A48-42DC-92E3-B93D0094EACF}" ShortID="53890868">
+								<Sound Name="scratch_left_01" ID="{9AF9AB2E-0E1A-49C6-99D8-5818B802D9DD}" ShortID="205273656">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>
@@ -38,7 +38,7 @@
 									</ReferenceList>
 									<ObjectLists/>
 								</Sound>
-								<Sound Name="dog_bark_angry_02" ID="{11BF6FAA-AF12-49FC-9897-F5C5BA961CCB}" ShortID="329824541">
+								<Sound Name="scratch_left_02" ID="{74B30295-CA9A-48E5-B61B-20402B46E8BF}" ShortID="637289965">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>
@@ -49,7 +49,7 @@
 									</ReferenceList>
 									<ObjectLists/>
 								</Sound>
-								<Sound Name="dog_bark_angry_03" ID="{E70BCDCE-B1FA-42F1-B68D-E4D9AC947232}" ShortID="278483485">
+								<Sound Name="scratch_left_03" ID="{A6B2F6A7-0D36-4BFF-A099-21DDE124A2DF}" ShortID="732874159">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>
@@ -60,7 +60,7 @@
 									</ReferenceList>
 									<ObjectLists/>
 								</Sound>
-								<Sound Name="dog_bark_angry_04" ID="{09FAE46F-DBC5-4C1E-A4D6-09D9792B6A34}" ShortID="1072250773">
+								<Sound Name="scratch_left_04" ID="{96FC8B70-54D0-4D2C-A718-45A26FBF08DF}" ShortID="188961343">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>
@@ -71,7 +71,7 @@
 									</ReferenceList>
 									<ObjectLists/>
 								</Sound>
-								<Sound Name="dog_bark_angry_05" ID="{C7498E90-751E-48EC-9414-52870AA93957}" ShortID="839436473">
+								<Sound Name="scratch_left_05" ID="{B2DBC6CB-45BB-45D2-843D-F7F849EC9F50}" ShortID="182197465">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>
@@ -85,7 +85,7 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="bark_dog_happy" ID="{25EE5FDD-FCD5-4011-974B-F799DF404033}" ShortID="1029536048">
+						<RandomSequenceContainer Name="scratch_right_paw" ID="{F39340F8-93F1-4DC2-B80D-FF9AC321B73F}" ShortID="499526497">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>
@@ -95,7 +95,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="dog_bark_happy_01" ID="{FFB3970D-A22E-468A-9959-B1385B0465DA}" ShortID="933556100">
+								<Sound Name="scratch_right_01" ID="{A98EEC9D-0EE9-430E-89C3-B8F236CCF21C}" ShortID="231023555">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>
@@ -106,7 +106,7 @@
 									</ReferenceList>
 									<ObjectLists/>
 								</Sound>
-								<Sound Name="dog_bark_happy_02" ID="{623F3C1D-81D5-4A9B-B8AA-A6B8C5CFC548}" ShortID="925460827">
+								<Sound Name="scratch_right_02" ID="{08750B28-BD79-4B72-8E81-6A325F35D4F2}" ShortID="159420105">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>
@@ -117,7 +117,7 @@
 									</ReferenceList>
 									<ObjectLists/>
 								</Sound>
-								<Sound Name="dog_bark_happy_03" ID="{DC00904C-BEAE-4EF6-B08C-7D026FB9E093}" ShortID="748232828">
+								<Sound Name="scratch_right_03" ID="{E40E4F3B-AD3D-4297-A0FF-A496C5E89A6A}" ShortID="354388989">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>
@@ -128,7 +128,7 @@
 									</ReferenceList>
 									<ObjectLists/>
 								</Sound>
-								<Sound Name="dog_bark_happy_04" ID="{B6346630-8AF1-49D9-943F-EA0211E280CD}" ShortID="932227893">
+								<Sound Name="scratch_right_04" ID="{C0046628-26C9-4109-954F-AC54D13EA66B}" ShortID="947602452">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>
@@ -139,7 +139,7 @@
 									</ReferenceList>
 									<ObjectLists/>
 								</Sound>
-								<Sound Name="dog_bark_happy_05" ID="{F33263D1-A628-4334-8E65-5D94E02F5367}" ShortID="440778456">
+								<Sound Name="scratch_right_05" ID="{6752EFB8-4AF4-43C7-8838-740F0FDFC930}" ShortID="813001423">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>

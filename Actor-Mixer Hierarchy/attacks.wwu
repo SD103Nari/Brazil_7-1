@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{6503B87F-ED3A-4335-9688-9FF4BA7D32C0}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{CE66CE8B-E3F8-4CA6-A893-5086264332DA}" SchemaVersion="103" RootDocumentID="{6503B87F-ED3A-4335-9688-9FF4BA7D32C0}" ParentDocumentID="{6503B87F-ED3A-4335-9688-9FF4BA7D32C0}">
 	<AudioObjects>
-		<WorkUnit Name="sfx" ID="{6503B87F-ED3A-4335-9688-9FF4BA7D32C0}" PersistMode="Standalone">
+		<WorkUnit Name="attacks" ID="{CE66CE8B-E3F8-4CA6-A893-5086264332DA}" OwnerID="{B1C5113D-3F59-4475-9381-821277BA2DF5}" PersistMode="Nested">
 			<ChildrenList>
-				<ActorMixer Name="sfx" ID="{B1C5113D-3F59-4475-9381-821277BA2DF5}" ShortID="477593851">
+				<ActorMixer Name="sfx_attacks" ID="{78AF5935-5ABC-4A0F-BC4C-81CE04010786}" ShortID="1008714192">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>
@@ -13,7 +13,8 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<WorkUnit Name="attacks" ID="{CE66CE8B-E3F8-4CA6-A893-5086264332DA}" PersistMode="Reference"/>
+						<WorkUnit Name="cat_slash" ID="{DC4B2C42-ADCB-44F1-B119-F4E737C31879}" PersistMode="Reference"/>
+						<WorkUnit Name="dog_bark" ID="{9BD1526A-D734-42A5-9276-FC9D918A7519}" PersistMode="Reference"/>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
