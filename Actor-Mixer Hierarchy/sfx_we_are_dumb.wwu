@@ -2,10 +2,6 @@
 <WwiseDocument Type="WorkUnit" ID="{3E059BE8-0BC9-45A7-8420-B33BC84B3225}" SchemaVersion="103">
 	<AudioObjects>
 		<WorkUnit Name="sfx_we_are_dumb" ID="{3E059BE8-0BC9-45A7-8420-B33BC84B3225}" PersistMode="Standalone">
-			<PropertyList>
-				<Property Name="Color" Type="int16" Value="10"/>
-				<Property Name="OverrideColor" Type="bool" Value="True"/>
-			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="we_are_really_slow" ID="{292470A5-8477-4D73-A3CE-BE40CC1B47A2}" ShortID="681950441">
 					<ReferenceList>
