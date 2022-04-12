@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{6503B87F-ED3A-4335-9688-9FF4BA7D32C0}" SchemaVersion="103">
 	<AudioObjects>
 		<WorkUnit Name="Sfx" ID="{6503B87F-ED3A-4335-9688-9FF4BA7D32C0}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="7"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="Sfx" ID="{B1C5113D-3F59-4475-9381-821277BA2DF5}" ShortID="477593851">
 					<ReferenceList>
