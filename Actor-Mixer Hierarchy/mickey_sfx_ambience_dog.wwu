@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3177A678-C328-483B-9E0E-1E2813A50F8C}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="mickey_sfx_ambience_dog" ID="{3177A678-C328-483B-9E0E-1E2813A50F8C}" PersistMode="Standalone"/>
+	</AudioObjects>
+</WwiseDocument>
