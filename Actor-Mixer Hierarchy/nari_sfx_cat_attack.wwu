@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DC4B2C42-ADCB-44F1-B119-F4E737C31879}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="nari_sfx_cat_attack" ID="{DC4B2C42-ADCB-44F1-B119-F4E737C31879}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
