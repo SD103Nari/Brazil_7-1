@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{CE66CE8B-E3F8-4CA6-A893-5086264332DA}" SchemaVersion="103" RootDocumentID="{6503B87F-ED3A-4335-9688-9FF4BA7D32C0}" ParentDocumentID="{6503B87F-ED3A-4335-9688-9FF4BA7D32C0}">
+<WwiseDocument Type="WorkUnit" ID="{CE66CE8B-E3F8-4CA6-A893-5086264332DA}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="attacks" ID="{CE66CE8B-E3F8-4CA6-A893-5086264332DA}" OwnerID="{B1C5113D-3F59-4475-9381-821277BA2DF5}" PersistMode="Nested">
+		<WorkUnit Name="attacks" ID="{CE66CE8B-E3F8-4CA6-A893-5086264332DA}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="sfx_attacks" ID="{78AF5935-5ABC-4A0F-BC4C-81CE04010786}" ShortID="1008714192">
 					<ReferenceList>
