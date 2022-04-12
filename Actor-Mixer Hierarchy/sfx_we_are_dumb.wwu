@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3E059BE8-0BC9-45A7-8420-B33BC84B3225}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="sfx_we_are_dumb" ID="{3E059BE8-0BC9-45A7-8420-B33BC84B3225}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="we_are_really_slow" ID="{292470A5-8477-4D73-A3CE-BE40CC1B47A2}" ShortID="681950441">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{897C2BD3-FFC3-4C58-9F16-F8D79D7F9760}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="slow_sounds" ID="{02F6277A-0038-4779-8F8E-B439544E353D}" ShortID="588401113">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{897C2BD3-FFC3-4C58-9F16-F8D79D7F9760}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="slow_01" ID="{192DC0CB-0581-4E8A-8BB0-B61AD59EFE59}" ShortID="431150225">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{897C2BD3-FFC3-4C58-9F16-F8D79D7F9760}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</Sound>
+								<Sound Name="slow_02" ID="{E25111BA-5E91-4C22-80B7-C08747CB5ED0}" ShortID="437204291">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06FAB5CB-7C87-474C-9C2D-671AE3F5199E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{897C2BD3-FFC3-4C58-9F16-F8D79D7F9760}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
